@@ -73,7 +73,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AverageTest.cs" />
+    <Compile Include="StatisticsTest.cs" />
     <Compile Include="BaseMathTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

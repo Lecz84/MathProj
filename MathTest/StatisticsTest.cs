@@ -1,22 +1,19 @@
 ﻿using NSubstitute;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using MathLib;
 using Xunit;
 
 namespace MathTest
 {
-    public class AverageTest
+    public class StatisticsTest
     {
         IStatisticsData statisticsData;
+        Statistics statistics;
 
-        public AverageTest()
+        public StatisticsTest()
         {
             statisticsData = Substitute.For<IStatisticsData>();
             statisticsData.Result.Returns(2.5);
+            statistics = new Statistics(statisticsData);
         }
 
         [Fact]

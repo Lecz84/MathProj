@@ -6,8 +6,15 @@ using System.Threading.Tasks;
 
 namespace MathLib
 {
-    class Statistics
+    public class Statistics
     {
-        
+        public IStatisticsData statisticsData { get; }
+
+        public Statistics(IStatisticsData statisticsData)
+        {
+            this.statisticsData = statisticsData;
+        }
+
+        public double Result { get { return statisticsData.Result; } }
     }
 }
