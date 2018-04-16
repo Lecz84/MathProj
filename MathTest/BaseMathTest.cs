@@ -3,10 +3,10 @@ using Xunit;
 
 namespace MathTest
 {
-    public class MathTest
+    public class BaseMathTest
     {
 
-        public MathTest()
+        public BaseMathTest()
         {
 
         }
