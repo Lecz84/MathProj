@@ -10,7 +10,7 @@ namespace MathProject
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("My Math project.");
+            Console.WriteLine("My Math project with TDD.");
         }
     }
 }
