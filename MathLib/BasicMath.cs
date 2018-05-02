@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace MathLib
 {
+    // The math
     public class BasicMath
     {
         public static int Add(int a, int b)
